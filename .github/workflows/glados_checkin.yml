@@ -3,6 +3,8 @@ name: GLaDOS Checkin
 on:
   schedule:
     - cron: "0 0 * * *"  # 每天 UTC 0点运行
+  workflow_dispatch:
+    
 
 jobs:
   checkin:
