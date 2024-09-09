@@ -18,4 +18,4 @@ jobs:
           GLADOS_COOKIE: ${{ secrets.GLADOS_COOKIE }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
         run: |
-          glados_checkin.py
+          python glados_checkin.py 
